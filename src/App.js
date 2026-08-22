@@ -344,7 +344,7 @@ function App() {
             <div className="timeline">
               <div className="timeline-item">
                 <span className="timeline-date">Jun 2024 - Present</span>
-                <h3>Full Stack Developer <span style={{ color: '#38bdf8' }}>@ Darshan Digital Solution</span></h3>
+                <h3>Full Stack Developer <span style={{ color: '#38bdf8' }}>@ Siddhi Software Solution</span></h3>
                 <p>
                   Architected and optimized MERN applications, designed complex database schemas in MongoDB/MySQL, built secure JWT authorizations, and increased API speeds by 30% through optimized caching and query structures.
                 </p>
