@@ -6,6 +6,7 @@ import photoShoot from "./assets/photoshoot.png";
 import vivah from "./assets/vivah.png";
 import blinkit from "./assets/blinkit.png";
 import blogbeast from "./assets/blogbeast.png";
+import resume from "./assets/resume.pdf";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 // Import Swiper styles
@@ -86,7 +87,7 @@ const socialLinks = {
   linkedin: "https://www.linkedin.com/in/sahilpathan27",
   email: "sahilpathan.dev@gmail.com",
   phone: "+91 89833 06757",
-  resume: "#"
+  resume: resume
 };
 
 function App() {
@@ -307,7 +308,13 @@ function App() {
             <button className="btn btn-primary" onClick={() => document.getElementById("projects").scrollIntoView({ behavior: "smooth" })}>
               Let's Explore
             </button>
-            <a href={socialLinks.resume} download className="btn btn-secondary">
+            <a
+              href={socialLinks.resume}
+              download="Sahil_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-secondary"
+            >
               <FileText size={18} style={{ marginRight: "8px" }} />
               Download Resume
             </a>
